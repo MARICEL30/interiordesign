@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lan="en">
+
+<head>
+
+<meta charset="UTF-8">
+       
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+<link href="style.css" type="text/css" rel="stylesheet">
+    
+  <link rel="icon"  type="image/png"  href="icons8-greenhouse-64.png"/>   
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" />
+    
+ <title> Great Interiors</title>
+
+</head>
+
+<body>
+    
+    
+<header>
+    
+
+    <div class="sidebar"  id="mySidebar">
+        
+        <a href="javascipt:void(0)" class="closebtn" onclick="closeNav()"> &times;</a>
+    
+        <a href="#"><li> Home</li></a>
+        
+        <a href="#"><li> Collection</li></a>
+        
+        <a href="#"><li> About</li></a>
+        
+        <a href="#"><li> Contact</li></a>
+    
+    </div>
+    
+    
+    <div id="main">
+    
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    
+        </div>
+        
+     
+     <div class="logo">
+    
+    <h1> Great Interiors</h1>
+    
+    </div> 
+    
+
+     </header>
+    
+    
+    <div class="big-header">
+    
+    <li> Home</li>
+    <li> Collection</li>
+    <li> About</li>
+    <li> Contact</li>
+    
+    
+    </div>
+    
+    
+    
+    
+    
+
+
+    <div class="container">
+    
+    <div class="section">
+        
+    <h2> Modern Interiors</h2>
+        
+     <p> A full Service residential &amp; commercial interior planning and design. Offering a wide range of materials and eco alternatives for modern interiors</p>   
+        
+        <p> Read more <span>&#8594; </span></p> 
+        
+        </div>
+        
+        
+     <div class="pic">
+        
+      <img src="interiors.jpg" alt="living-room">  
+        
+        </div>
+        
+        
+        <div class="designer-section" id="myPic"  onclick="openNav()">
+        
+        <img src="profile-designer.jpg" alt="profile-pic">
+        <p> <span>Helga Serrano</span> <br> Interior Designer</p>
+            
+            <h3> Designed in 2020 by <br>Helga Serrano </h3>
+        
+        </div>
+        
+        
+        </div>
+    
+    <div class="footer">
+
+        <a href="https://twitter.com/MaricelSight"> <h5>@MaricelSight</h5></a>
+        
+    </div>
+    
+    <script>
+    
+    function openNav() {
+        
+        document.getElementById("mySidebar").style.width = "375px";
+        document.getElementById("main").style.marginLeft = "375px";
+        document.getElementById("myPic").style.display = "none";
+        
+ }
+        
+        function closeNav() {
+            
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+             document.getElementById("myPic").style.display = "block";
+        }
+    
+    
+    
+    
+    </script>
+    
+    
+    
+
+</body>
+
+</html>
