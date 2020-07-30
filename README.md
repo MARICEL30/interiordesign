@@ -1,1 +1,1 @@
-# interiordesign wireframe for an interior design website. 
+# interior design wireframe website. 
